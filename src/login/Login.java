@@ -4,7 +4,12 @@
  */
 package login;
 
+import conexion.Conexion;
 import java.awt.Color;
+import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -14,12 +19,15 @@ public class Login extends javax.swing.JFrame {
     
     //CREACION DE VARIABLES
     int xMouse, yMouse;
+    Conexion cx;
     
     /**
      * Creates new form Login
      */
     public Login() {
         initComponents();
+        cx = new Conexion("libreria");
+        cx.conectar();
     }
 
     /**
@@ -202,6 +210,9 @@ public class Login extends javax.swing.JFrame {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 loginBtnTxtMouseExited(evt);
             }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                loginBtnTxtMousePressed(evt);
+            }
         });
 
         javax.swing.GroupLayout loginBtnLayout = new javax.swing.GroupLayout(loginBtn);
@@ -234,7 +245,7 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void usuarioTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioTxtActionPerformed
-        // TODO add your handling code here:
+        // NO SE USA PERO NO SE QUITARLO
     }//GEN-LAST:event_usuarioTxtActionPerformed
 
     private void headerMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerMouseDragged
@@ -298,8 +309,30 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_passwordTxtMousePressed
 
     private void loginBtnTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBtnTxtMouseClicked
-        javax.swing.JOptionPane.showMessageDialog(this, "Intento de login con los datos: \nUsuario: " + usuarioTxt.getText() + "\nContraseña: " + String.valueOf(passwordTxt.getPassword()), "LOGIN", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+        try {
+            //javax.swing.JOptionPane.showMessageDialog(this, "Intento de login con los datos: \nUsuario: " + usuarioTxt.getText() + "\nContraseña: " + String.valueOf(passwordTxt.getPassword()), "LOGIN", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+            String user = usuarioTxt.getText();
+            String password = String.valueOf(passwordTxt.getPassword());
+            
+            String query = "SELECT * FROM usuario WHERE user ='"+ user +"' AND password='"+ password +"'";
+            Statement st = cx.conectar().createStatement();
+            ResultSet rs = st.executeQuery(query);
+            if(rs.next()){
+                JOptionPane.showMessageDialog(this, "Ingreso Exitoso");
+                this.setVisible(false);
+                Inicio c = new Inicio();
+                c.setVisible(true);
+            } else {
+                JOptionPane.showMessageDialog(this, "Usuario y/o Contraseña Erroneos");
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_loginBtnTxtMouseClicked
+
+    private void loginBtnTxtMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBtnTxtMousePressed
+        // NO SE USA PERO NO SE QUITARLO
+    }//GEN-LAST:event_loginBtnTxtMousePressed
 
     /**
      * @param args the command line arguments
