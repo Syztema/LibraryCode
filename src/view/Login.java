@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+<<<<<<< HEAD:src/view/Login.java
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
@@ -12,6 +13,9 @@ import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.SwingUtilities;
 
 
+=======
+import javax.swing.JOptionPane;
+>>>>>>> master:src/login/Login.java
 
 /**
  *
@@ -320,10 +324,17 @@ public class Login extends javax.swing.JFrame {
             Statement st = cx.conectar().createStatement();
             ResultSet rs = st.executeQuery(query);
             if(rs.next()){
+<<<<<<< HEAD:src/view/Login.java
                 JOptionPane.showMessageDialog(this, "Ingreso Exitoso");                
                 this.setVisible(false);                                      
                 Inicio c = new Inicio(user);                
                 c.setVisible(true);                
+=======
+                JOptionPane.showMessageDialog(this, "Ingreso Exitoso");
+                this.setVisible(false);
+                Inicio c = new Inicio();
+                c.setVisible(true);
+>>>>>>> master:src/login/Login.java
             } else {
                 JOptionPane.showMessageDialog(this, "Usuario y/o Contraseña Erroneos");
             }
