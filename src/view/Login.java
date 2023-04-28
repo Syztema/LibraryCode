@@ -1,10 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-package login;
+package view;
 
+import conexion.Conexion;
 import java.awt.Color;
+import java.sql.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.UIManager;
+import com.formdev.flatlaf.FlatLightLaf;
+import javax.swing.SwingUtilities;
+
+
 
 /**
  *
@@ -14,12 +21,15 @@ public class Login extends javax.swing.JFrame {
     
     //CREACION DE VARIABLES
     int xMouse, yMouse;
+    Conexion cx;
     
     /**
      * Creates new form Login
      */
     public Login() {
         initComponents();
+        cx = new Conexion("libreria");
+        cx.conectar();
     }
 
     /**
@@ -59,8 +69,8 @@ public class Login extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("NOMBRE EMPRESA");
-        bg.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 240, -1, -1));
+        jLabel1.setText("LIBRARY CODE");
+        bg.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 240, -1, -1));
 
         logoBg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/logo.png"))); // NOI18N
         bg.add(logoBg, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 50, 150, 150));
@@ -202,6 +212,9 @@ public class Login extends javax.swing.JFrame {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 loginBtnTxtMouseExited(evt);
             }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                loginBtnTxtMousePressed(evt);
+            }
         });
 
         javax.swing.GroupLayout loginBtnLayout = new javax.swing.GroupLayout(loginBtn);
@@ -234,7 +247,7 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void usuarioTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usuarioTxtActionPerformed
-        // TODO add your handling code here:
+        // NO SE USA PERO NO SE QUITARLO
     }//GEN-LAST:event_usuarioTxtActionPerformed
 
     private void headerMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_headerMouseDragged
@@ -250,7 +263,7 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_headerMousePressed
 
     private void exitBtnMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitBtnMousePressed
-
+        //NO SE USA PERO NO SE QUITARLO
     }//GEN-LAST:event_exitBtnMousePressed
 
     private void exitTxtMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitTxtMouseEntered
@@ -298,8 +311,30 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_passwordTxtMousePressed
 
     private void loginBtnTxtMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBtnTxtMouseClicked
-        javax.swing.JOptionPane.showMessageDialog(this, "Intento de login con los datos: \nUsuario: " + usuarioTxt.getText() + "\nContraseña: " + String.valueOf(passwordTxt.getPassword()), "LOGIN", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+        try {
+            //javax.swing.JOptionPane.showMessageDialog(this, "Intento de login con los datos: \nUsuario: " + usuarioTxt.getText() + "\nContraseña: " + String.valueOf(passwordTxt.getPassword()), "LOGIN", javax.swing.JOptionPane.INFORMATION_MESSAGE);
+            String user = usuarioTxt.getText();
+            String password = String.valueOf(passwordTxt.getPassword());
+            
+            String query = "SELECT * FROM usuario WHERE user ='"+ user +"' AND password='"+ password +"'";
+            Statement st = cx.conectar().createStatement();
+            ResultSet rs = st.executeQuery(query);
+            if(rs.next()){
+                JOptionPane.showMessageDialog(this, "Ingreso Exitoso");                
+                this.setVisible(false);                                      
+                Inicio c = new Inicio(user);                
+                c.setVisible(true);                
+            } else {
+                JOptionPane.showMessageDialog(this, "Usuario y/o Contraseña Erroneos");
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_loginBtnTxtMouseClicked
+
+    private void loginBtnTxtMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBtnTxtMousePressed
+        // NO SE USA PERO NO SE QUITARLO
+    }//GEN-LAST:event_loginBtnTxtMousePressed
 
     /**
      * @param args the command line arguments
@@ -327,10 +362,13 @@ public class Login extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
+        //Configurar el Aspecto FlatLaf en la Aplicacion
+        FlatLightLaf.install();
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
+            public void run() {                
                 new Login().setVisible(true);
             }
         });
