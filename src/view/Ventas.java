@@ -23,7 +23,24 @@ public class Ventas extends javax.swing.JPanel {
     }
     
     private void InitStyles(){
-        
+        jLabel1.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel1.setForeground(Color.black);
+        jLabel2.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel2.setForeground(Color.black);
+        jLabel3.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel3.setForeground(Color.black);
+        jLabel4.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel4.setForeground(Color.black);
+        jLabel5.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel5.setForeground(Color.black);
+        jLabel6.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel6.setForeground(Color.black);
+        jLabel7.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel7.setForeground(Color.black);
+        jLabel8.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel8.setForeground(Color.black);
+        jLabel9.putClientProperty("FlatLaf.styleClass", "large");
+        jLabel9.setForeground(Color.black);
     }
 
     /**
@@ -47,7 +64,7 @@ public class Ventas extends javax.swing.JPanel {
         cantidadSpnVentas = new javax.swing.JSpinner();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        librosTbl = new javax.swing.JTable();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -57,8 +74,12 @@ public class Ventas extends javax.swing.JPanel {
         subtotalVentas = new javax.swing.JLabel();
         membresiaVentas = new javax.swing.JLabel();
         precioVentas = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+
+        setPreferredSize(new java.awt.Dimension(715, 482));
 
         bg.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -79,7 +100,7 @@ public class Ventas extends javax.swing.JPanel {
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel2.setText("Código Cliente:");
+        jLabel2.setText("Identificación Cliente:");
 
         codClientVentas.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         codClientVentas.setForeground(new java.awt.Color(0, 0, 0));
@@ -105,7 +126,7 @@ public class Ventas extends javax.swing.JPanel {
         jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Precio:");
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        librosTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
                 {null, null, null, null},
@@ -116,7 +137,7 @@ public class Ventas extends javax.swing.JPanel {
                 "Title 1", "Title 2", "Title 3", "Title 4"
             }
         ));
-        jScrollPane1.setViewportView(jTable1);
+        jScrollPane1.setViewportView(librosTbl);
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -163,6 +184,26 @@ public class Ventas extends javax.swing.JPanel {
         precioVentas.setForeground(new java.awt.Color(0, 0, 0));
         precioVentas.setText("$0.00");
 
+        jButton1.setBackground(new java.awt.Color(18, 90, 173));
+        jButton1.setText("Agregar");
+        jButton1.setBorderPainted(false);
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setBackground(new java.awt.Color(18, 90, 173));
+        jButton3.setText("Facturar");
+        jButton3.setBorderPainted(false);
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
         bg.setLayout(bgLayout);
         bgLayout.setHorizontalGroup(
@@ -171,21 +212,11 @@ public class Ventas extends javax.swing.JPanel {
                 .addContainerGap()
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(bgLayout.createSequentialGroup()
-                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel1))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(bgLayout.createSequentialGroup()
-                                .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(nameClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
-                                .addComponent(jLabel4)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(membresiaVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(librosCbxVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
@@ -195,7 +226,19 @@ public class Ventas extends javax.swing.JPanel {
                                 .addGap(18, 18, 18)
                                 .addComponent(jLabel6)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(precioVentas))))
+                                .addComponent(precioVentas)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jButton1))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(nameClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(membresiaVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(bgLayout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -207,8 +250,9 @@ public class Ventas extends javax.swing.JPanel {
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(totalVentas)
                             .addComponent(jLabel11)
-                            .addComponent(subtotalVentas))))
-                .addContainerGap(14, Short.MAX_VALUE))
+                            .addComponent(subtotalVentas)
+                            .addComponent(jButton3))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         bgLayout.setVerticalGroup(
             bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -217,10 +261,10 @@ public class Ventas extends javax.swing.JPanel {
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3)
-                    .addComponent(jLabel4)
                     .addComponent(nameClientVentas)
                     .addComponent(membresiaVentas)
-                    .addComponent(jLabel2))
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel4))
                 .addGap(18, 18, 18)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
@@ -228,7 +272,8 @@ public class Ventas extends javax.swing.JPanel {
                     .addComponent(jLabel5)
                     .addComponent(cantidadSpnVentas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6)
-                    .addComponent(precioVentas))
+                    .addComponent(precioVentas)
+                    .addComponent(jButton1))
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(bgLayout.createSequentialGroup()
                         .addGap(48, 48, 48)
@@ -245,8 +290,10 @@ public class Ventas extends javax.swing.JPanel {
                         .addGap(12, 12, 12)
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel9)
-                            .addComponent(totalVentas))))
-                .addContainerGap(91, Short.MAX_VALUE))
+                            .addComponent(totalVentas))
+                        .addGap(39, 39, 39)
+                        .addComponent(jButton3)))
+                .addContainerGap(89, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -265,11 +312,21 @@ public class Ventas extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_librosCbxVentasActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
     private javax.swing.JSpinner cantidadSpnVentas;
     private javax.swing.JTextField codClientVentas;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton3;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
@@ -282,8 +339,8 @@ public class Ventas extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jTable1;
     private javax.swing.JComboBox<String> librosCbxVentas;
+    private javax.swing.JTable librosTbl;
     private javax.swing.JLabel membresiaVentas;
     private javax.swing.JLabel nameClientVentas;
     private javax.swing.JLabel precioVentas;

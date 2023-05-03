@@ -23,7 +23,7 @@ public class Principal extends javax.swing.JPanel {
     }
     
     private void InitStyles(){
-        titleContent.putClientProperty("FlatLaf.style", "font: bold $h1.regular.fonr");
+        titleContent.putClientProperty("FlatLaf.style", "font: bold $h1.regular.font");
         titleContent.setForeground(Color.black);
         jLabel2.putClientProperty("FlatLaf.styleClass", "large");
         jLabel2.setForeground(Color.black);

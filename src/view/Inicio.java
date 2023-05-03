@@ -36,7 +36,7 @@ public class Inicio extends javax.swing.JFrame {
     
     //METODOS PROPIOS
     private void InitStyles(){                
-        mensaje.putClientProperty("FlatLaf.style", "font: 14 $light.font");
+        mensaje.putClientProperty("FlatLaf.style", "font: bold $h1.regular.font");
         mensaje.setForeground(Color.black);
         navtext.putClientProperty("FlatLaf.style", "font: bold $h3.regular.font");
         navtext.setForeground(Color.white);
@@ -77,11 +77,11 @@ public class Inicio extends javax.swing.JFrame {
         menus = new javax.swing.JPanel();
         title = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        principalBtn = new javax.swing.JButton();
+        ventasBtn = new javax.swing.JButton();
+        clientesBtn = new javax.swing.JButton();
+        empleadosBtn = new javax.swing.JButton();
+        inventarioBtn = new javax.swing.JButton();
         background = new javax.swing.JPanel();
         header = new javax.swing.JPanel();
         navtext = new javax.swing.JLabel();
@@ -93,6 +93,7 @@ public class Inicio extends javax.swing.JFrame {
         setMaximumSize(new java.awt.Dimension(1032, 640));
         setMinimumSize(new java.awt.Dimension(1032, 640));
         setPreferredSize(new java.awt.Dimension(1032, 640));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         menus.setBackground(new java.awt.Color(13, 71, 161));
@@ -102,75 +103,90 @@ public class Inicio extends javax.swing.JFrame {
 
         jSeparator1.setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setBackground(new java.awt.Color(21, 101, 192));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/casa.png"))); // NOI18N
-        jButton1.setText("Principal");
-        jButton1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        jButton1.setBorderPainted(false);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        principalBtn.setBackground(new java.awt.Color(21, 101, 192));
+        principalBtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        principalBtn.setForeground(new java.awt.Color(255, 255, 255));
+        principalBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/casa.png"))); // NOI18N
+        principalBtn.setText("Principal");
+        principalBtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        principalBtn.setBorderPainted(false);
+        principalBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        principalBtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        principalBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                principalBtnActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(21, 101, 192));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/ventas.png"))); // NOI18N
-        jButton2.setText("Ventas");
-        jButton2.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        jButton2.setBorderPainted(false);
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton2.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        ventasBtn.setBackground(new java.awt.Color(21, 101, 192));
+        ventasBtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ventasBtn.setForeground(new java.awt.Color(255, 255, 255));
+        ventasBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/ventas.png"))); // NOI18N
+        ventasBtn.setText("Ventas");
+        ventasBtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        ventasBtn.setBorderPainted(false);
+        ventasBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        ventasBtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        ventasBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ventasBtnActionPerformed(evt);
             }
         });
 
-        jButton3.setBackground(new java.awt.Color(21, 101, 192));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/clientes.png"))); // NOI18N
-        jButton3.setText("Clientes");
-        jButton3.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        jButton3.setBorderPainted(false);
-        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        clientesBtn.setBackground(new java.awt.Color(21, 101, 192));
+        clientesBtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        clientesBtn.setForeground(new java.awt.Color(255, 255, 255));
+        clientesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/clientes.png"))); // NOI18N
+        clientesBtn.setText("Clientes");
+        clientesBtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        clientesBtn.setBorderPainted(false);
+        clientesBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        clientesBtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        clientesBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clientesBtnActionPerformed(evt);
+            }
+        });
 
-        jButton4.setBackground(new java.awt.Color(21, 101, 192));
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/empleados.png"))); // NOI18N
-        jButton4.setText("Empleados");
-        jButton4.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        jButton4.setBorderPainted(false);
-        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        empleadosBtn.setBackground(new java.awt.Color(21, 101, 192));
+        empleadosBtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        empleadosBtn.setForeground(new java.awt.Color(255, 255, 255));
+        empleadosBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/empleados.png"))); // NOI18N
+        empleadosBtn.setText("Empleados");
+        empleadosBtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        empleadosBtn.setBorderPainted(false);
+        empleadosBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        empleadosBtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        empleadosBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                empleadosBtnActionPerformed(evt);
+            }
+        });
 
-        jButton5.setBackground(new java.awt.Color(21, 101, 192));
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/inventario.png"))); // NOI18N
-        jButton5.setText("Inventario");
-        jButton5.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        jButton5.setBorderPainted(false);
-        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        inventarioBtn.setBackground(new java.awt.Color(21, 101, 192));
+        inventarioBtn.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        inventarioBtn.setForeground(new java.awt.Color(255, 255, 255));
+        inventarioBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/inventario.png"))); // NOI18N
+        inventarioBtn.setText("Inventario");
+        inventarioBtn.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        inventarioBtn.setBorderPainted(false);
+        inventarioBtn.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        inventarioBtn.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        inventarioBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                inventarioBtnActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout menusLayout = new javax.swing.GroupLayout(menus);
         menus.setLayout(menusLayout);
         menusLayout.setHorizontalGroup(
             menusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(principalBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(ventasBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(clientesBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(empleadosBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(inventarioBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 307, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(menusLayout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addGroup(menusLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -185,15 +201,15 @@ public class Inicio extends javax.swing.JFrame {
                 .addGap(6, 6, 6)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(56, 56, 56)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(principalBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(ventasBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(clientesBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(empleadosBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0)
-                .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(inventarioBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         getContentPane().add(menus, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 640));
@@ -275,29 +291,140 @@ public class Inicio extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    private void principalBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_principalBtnActionPerformed
+        Principal p1 = new Principal();
+        p1.setSize(750,430);
+        p1.setLocation(0,0);
+        
+        content.removeAll();
+        content.add(p1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+                
+        Color color = new Color(21,101,192);                
+        principalBtn.setBackground(Color.white);
+        principalBtn.setForeground(Color.black);
+        ventasBtn.setBackground(color);
+        ventasBtn.setForeground(Color.white);
+        clientesBtn.setBackground(color);
+        clientesBtn.setForeground(Color.white);
+        empleadosBtn.setBackground(color);
+        empleadosBtn.setForeground(Color.white);
+        inventarioBtn.setBackground(color);
+        inventarioBtn.setForeground(Color.white);
+    }//GEN-LAST:event_principalBtnActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void ventasBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ventasBtnActionPerformed
+        Ventas p1 = new Ventas();
+        p1.setSize(750,430);
+        p1.setLocation(0,0);
+        
+        content.removeAll();
+        content.add(p1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+        
+        Color color = new Color(21,101,192);                
+        principalBtn.setBackground(color);
+        principalBtn.setForeground(Color.white);
+        ventasBtn.setBackground(Color.white);
+        ventasBtn.setForeground(Color.black);
+        clientesBtn.setBackground(color);
+        clientesBtn.setForeground(Color.white);
+        empleadosBtn.setBackground(color);
+        empleadosBtn.setForeground(Color.white);
+        inventarioBtn.setBackground(color);
+        inventarioBtn.setForeground(Color.white);
+    }//GEN-LAST:event_ventasBtnActionPerformed
+
+    private void clientesBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clientesBtnActionPerformed
+        Clientes p1 = new Clientes();
+        p1.setSize(750,430);
+        p1.setLocation(0,0);
+        
+        content.removeAll();
+        content.add(p1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+        
+        Color color = new Color(21,101,192);                
+        principalBtn.setBackground(color);
+        principalBtn.setForeground(Color.white);
+        ventasBtn.setBackground(color);
+        ventasBtn.setForeground(Color.white);
+        clientesBtn.setBackground(Color.white);
+        clientesBtn.setForeground(Color.black);
+        empleadosBtn.setBackground(color);
+        empleadosBtn.setForeground(Color.white);
+        inventarioBtn.setBackground(color);
+        inventarioBtn.setForeground(Color.white);
+    }//GEN-LAST:event_clientesBtnActionPerformed
+
+    private void empleadosBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_empleadosBtnActionPerformed
+        Empleados p1 = new Empleados();
+        p1.setSize(750,430);
+        p1.setLocation(0,0);
+        
+        content.removeAll();
+        content.add(p1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+        
+        Color color = new Color(21,101,192);                
+        principalBtn.setBackground(color);
+        principalBtn.setForeground(Color.white);
+        ventasBtn.setBackground(color);
+        ventasBtn.setForeground(Color.white);
+        clientesBtn.setBackground(color);
+        clientesBtn.setForeground(Color.white);
+        empleadosBtn.setBackground(Color.white);
+        empleadosBtn.setForeground(Color.black);
+        inventarioBtn.setBackground(color);
+        inventarioBtn.setForeground(Color.white);
+    }//GEN-LAST:event_empleadosBtnActionPerformed
+
+    private void inventarioBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_inventarioBtnActionPerformed
+        Inventario p1 = new Inventario();
+        p1.setSize(750,430);
+        p1.setLocation(0,0);
+        
+        content.removeAll();
+        content.add(p1, BorderLayout.CENTER);
+        content.revalidate();
+        content.repaint();
+        
+        Color color = new Color(21,101,192);                
+        principalBtn.setBackground(color);
+        principalBtn.setForeground(Color.white);
+        ventasBtn.setBackground(color);
+        ventasBtn.setForeground(Color.white);
+        clientesBtn.setBackground(color);
+        clientesBtn.setForeground(Color.white);
+        empleadosBtn.setBackground(color);
+        empleadosBtn.setForeground(Color.white);
+        inventarioBtn.setBackground(Color.white);
+        inventarioBtn.setForeground(Color.black);
+    }//GEN-LAST:event_inventarioBtnActionPerformed
         
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel background;
+    private javax.swing.JButton clientesBtn;
     private javax.swing.JPanel content;
     private javax.swing.JLabel datetext;
+    private javax.swing.JButton empleadosBtn;
     private javax.swing.JPanel header;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
+    private javax.swing.JButton inventarioBtn;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel mensaje;
     private javax.swing.JPanel menus;
     private javax.swing.JLabel navtext;
+    private javax.swing.JButton principalBtn;
     private javax.swing.JLabel title;
+    private javax.swing.JButton ventasBtn;
     // End of variables declaration//GEN-END:variables
+
+    private Color Color(int i, int i0, int i1) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }
