@@ -53,27 +53,47 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="lbl1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                       <Component id="cedulaEmpleadoLbl" min="-2" pref="158" max="-2" attributes="0"/>
+=======
+                                      <Component id="jLabel3" min="-2" pref="158" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="lbl2" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                       <Component id="nombreEmpleadoTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                                      <Component id="jTextField1" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="lbl3" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                       <Component id="cargoEmpleadoCbx" min="-2" max="-2" attributes="0"/>
+=======
+                                      <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="lbl4" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                       <Component id="correoEmpleadoTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                                      <Component id="jTextField2" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="lbl5" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                       <Component id="celularEmpleadoTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                                      <Component id="jTextField3" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                               </Group>
                           </Group>
@@ -82,6 +102,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="contraseñaEmpleadoTxt" min="-2" pref="167" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -90,6 +111,16 @@
                       </Group>
                   </Group>
                   <EmptySpace pref="102" max="32767" attributes="0"/>
+=======
+                          <Component id="jTextField4" min="-2" pref="167" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="99" max="32767" attributes="0"/>
+>>>>>>> master
               </Group>
           </Group>
         </DimensionLayout>
@@ -101,35 +132,62 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="cedulaEmpleadoLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="nombreEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="cargoEmpleadoCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="correoEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="celularEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="contraseñaEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="editarEmpleadoBtn" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   <EmptySpace pref="16" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -150,14 +208,25 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Cedula Empleado:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="cedulaEmpleadoLbl">
+=======
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+>>>>>>> master
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jLabel3"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl2">
@@ -168,7 +237,14 @@
             <Property name="text" type="java.lang.String" value="Nombre Empleado:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="nombreEmpleadoTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
         <Component class="javax.swing.JLabel" name="lbl3">
           <Properties>
@@ -178,6 +254,7 @@
             <Property name="text" type="java.lang.String" value="Cargo:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JComboBox" name="cargoEmpleadoCbx">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -185,6 +262,16 @@
                 <StringItem index="0" value="Vendedor"/>
                 <StringItem index="1" value="Administrador"/>
                 <StringItem index="2" value="Developer"/>
+=======
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+>>>>>>> master
               </StringArray>
             </Property>
           </Properties>
@@ -200,7 +287,14 @@
             <Property name="text" type="java.lang.String" value="Correo Empleado:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="correoEmpleadoTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
         <Component class="javax.swing.JLabel" name="lbl5">
           <Properties>
@@ -210,9 +304,18 @@
             <Property name="text" type="java.lang.String" value="Celular Empleado:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="celularEmpleadoTxt">
         </Component>
         <Component class="javax.swing.JButton" name="editarEmpleadoBtn">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="a3" green="5a" red="12" type="rgb"/>
@@ -224,12 +327,18 @@
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Editar"/>
+<<<<<<< HEAD
             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
               <Color id="Hand Cursor"/>
             </Property>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarEmpleadoBtnActionPerformed"/>
+=======
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+>>>>>>> master
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl6">
@@ -240,7 +349,14 @@
             <Property name="text" type="java.lang.String" value="Contrase&#xf1;a Empleado:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="contrase&#xf1;aEmpleadoTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
       </SubComponents>
     </Container>

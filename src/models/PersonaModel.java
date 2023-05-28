@@ -16,6 +16,7 @@ public class PersonaModel {
         this.celular = celular;
     }
     
+<<<<<<< HEAD
     public PersonaModel(String cedula, String nombre, String correo, String celular) {        
         this.cedula = cedula;
         this.nombre = nombre;
@@ -23,6 +24,8 @@ public class PersonaModel {
         this.celular = celular;
     }
     
+=======
+>>>>>>> master
     //GETTERS AND SETTERS
     public int getId() {
         return id;
@@ -51,6 +54,7 @@ public class PersonaModel {
     public void setCelular(String celular) {
         this.celular = celular;
     }          
+<<<<<<< HEAD
 
     
     //PARA MOSTRAR EL ARRAYLIST
@@ -65,4 +69,6 @@ public class PersonaModel {
     }
 
 
+=======
+>>>>>>> master
 }

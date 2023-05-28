@@ -12,12 +12,15 @@ public class EmpleadoModel extends PersonaModel{
         this.contraseña = contraseña;
     }
     
+<<<<<<< HEAD
     public EmpleadoModel(String cedula, String nombre, String cargo, String correo, String celular, String contraseña) {    
         super(cedula, nombre, correo, celular);
         this.cargo = cargo;
         this.contraseña = contraseña;
     }
     
+=======
+>>>>>>> master
     //GETTERS AND SETTERS
     public String getCargo() {
         return cargo;

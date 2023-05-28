@@ -5,6 +5,7 @@
 package views;
 
 import com.formdev.flatlaf.FlatLightLaf;
+<<<<<<< HEAD
 import controllers.EmpleadoController;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -15,6 +16,9 @@ import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableModel;
 import models.EmpleadoModel;
 import models.PersonaModel;
+=======
+import java.awt.Color;
+>>>>>>> master
 
 /**
  *
@@ -22,20 +26,29 @@ import models.PersonaModel;
  */
 public class Empleados extends javax.swing.JPanel {
 
+<<<<<<< HEAD
     //CREACION DE VARIABLES
     EmpleadoController empleadoController;  
     EmpleadoModel empleado;
     
+=======
+>>>>>>> master
     /**
      * Creates new form Principal
      */
     public Empleados() {
+<<<<<<< HEAD
         empleadoController = new EmpleadoController();        
         FlatLightLaf.install();
         initComponents();
         InitStyles();  
         LoadEmpleados();
         setJTexFieldChanged(this.cedulaEmpleadoConsultaTxt);
+=======
+        FlatLightLaf.install();
+        initComponents();
+        InitStyles();  
+>>>>>>> master
     }
     
     private void InitStyles(){
@@ -53,6 +66,7 @@ public class Empleados extends javax.swing.JPanel {
         lbl6.setForeground(Color.black);
         lbl7.putClientProperty("FlatLaf.styleClass", "large");
         lbl7.setForeground(Color.black);
+<<<<<<< HEAD
         lbl8.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
         lbl8.setForeground(Color.black);
         lbl9.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
@@ -62,17 +76,31 @@ public class Empleados extends javax.swing.JPanel {
         lbl11.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
         lbl11.setForeground(Color.black);   
         lbl12.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
+=======
+        lbl8.putClientProperty("FlatLaf.styleClass", "large");
+        lbl8.setForeground(Color.black);
+        lbl9.putClientProperty("FlatLaf.styleClass", "large");
+        lbl9.setForeground(Color.black);
+        lbl10.putClientProperty("FlatLaf.styleClass", "large");
+        lbl10.setForeground(Color.black);        
+        lbl11.putClientProperty("FlatLaf.styleClass", "large");
+        lbl11.setForeground(Color.black);   
+        lbl12.putClientProperty("FlatLaf.styleClass", "large");
+>>>>>>> master
         lbl12.setForeground(Color.black);   
         titleLbl.putClientProperty("FlatLaf.style", "font: bold $h3.regular.font");
         titleLbl.setForeground(Color.black);
     }
 
+<<<<<<< HEAD
     private void LoadEmpleados(){                       
         DefaultTableModel tabla =  (DefaultTableModel) empleadosTbl.getModel();       
         tabla.setRowCount(0);
         empleadoController.findAll().forEach((u) -> tabla.addRow(new Object[] {u.getId(), u.getCedula(), u.getNombre(), u.getCargo(), u.getCorreo(), u.getCelular(), u.getContraseña()}));        
     }
     
+=======
+>>>>>>> master
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -85,6 +113,7 @@ public class Empleados extends javax.swing.JPanel {
         jComboBox2 = new javax.swing.JComboBox<>();
         bg = new javax.swing.JPanel();
         lbl3 = new javax.swing.JLabel();
+<<<<<<< HEAD
         cargoEmpleadoCbx = new javax.swing.JComboBox<>();
         lbl1 = new javax.swing.JLabel();
         cedulaEmpleadoTxt = new javax.swing.JTextField();
@@ -115,6 +144,38 @@ public class Empleados extends javax.swing.JPanel {
         contraseñaEmpleadoTxt = new javax.swing.JTextField();
         lbl12 = new javax.swing.JLabel();
         contraseñaLbl = new javax.swing.JLabel();
+=======
+        librosCbxVentas = new javax.swing.JComboBox<>();
+        lbl1 = new javax.swing.JLabel();
+        codClientVentas = new javax.swing.JTextField();
+        lbl2 = new javax.swing.JLabel();
+        lbl4 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        librosTbl = new javax.swing.JTable();
+        titleLbl = new javax.swing.JLabel();
+        lbl7 = new javax.swing.JLabel();
+        lbl8 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        codClientVentas1 = new javax.swing.JTextField();
+        codClientVentas2 = new javax.swing.JTextField();
+        lbl5 = new javax.swing.JLabel();
+        codClientVentas3 = new javax.swing.JTextField();
+        lbl9 = new javax.swing.JLabel();
+        lbl10 = new javax.swing.JLabel();
+        lbl11 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        codClientVentas5 = new javax.swing.JTextField();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        lbl6 = new javax.swing.JLabel();
+        contraEmpleadoTxt = new javax.swing.JTextField();
+        lbl12 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+>>>>>>> master
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -127,22 +188,39 @@ public class Empleados extends javax.swing.JPanel {
         lbl3.setForeground(new java.awt.Color(0, 0, 0));
         lbl3.setText("Cargo:");
 
+<<<<<<< HEAD
         cargoEmpleadoCbx.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         cargoEmpleadoCbx.setForeground(new java.awt.Color(0, 0, 0));
         cargoEmpleadoCbx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "", "Vendedor", "Administrador", "Developer" }));
         cargoEmpleadoCbx.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cargoEmpleadoCbxActionPerformed(evt);
+=======
+        librosCbxVentas.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        librosCbxVentas.setForeground(new java.awt.Color(0, 0, 0));
+        librosCbxVentas.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Arroz", "Papa", "Carne", "Platano", "Huevos" }));
+        librosCbxVentas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                librosCbxVentasActionPerformed(evt);
+>>>>>>> master
             }
         });
 
         lbl1.setBackground(new java.awt.Color(0, 0, 0));
         lbl1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl1.setForeground(new java.awt.Color(0, 0, 0));
+<<<<<<< HEAD
         lbl1.setText("Cedula Empleado:");
 
         cedulaEmpleadoTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         cedulaEmpleadoTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        lbl1.setText("Identificación Empleado:");
+
+        codClientVentas.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas.setText("jTextField1");
+>>>>>>> master
 
         lbl2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl2.setForeground(new java.awt.Color(0, 0, 0));
@@ -153,6 +231,7 @@ public class Empleados extends javax.swing.JPanel {
         lbl4.setForeground(new java.awt.Color(0, 0, 0));
         lbl4.setText("Correo:");
 
+<<<<<<< HEAD
         empleadosTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -162,6 +241,20 @@ public class Empleados extends javax.swing.JPanel {
             }
         ));
         jScrollPane1.setViewportView(empleadosTbl);
+=======
+        librosTbl.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(librosTbl);
+>>>>>>> master
 
         titleLbl.setBackground(new java.awt.Color(0, 0, 0));
         titleLbl.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -172,13 +265,18 @@ public class Empleados extends javax.swing.JPanel {
         lbl7.setBackground(new java.awt.Color(0, 0, 0));
         lbl7.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl7.setForeground(new java.awt.Color(0, 0, 0));
+<<<<<<< HEAD
         lbl7.setText("Cedula:");
+=======
+        lbl7.setText("Identificación:");
+>>>>>>> master
 
         lbl8.setBackground(new java.awt.Color(0, 0, 0));
         lbl8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl8.setForeground(new java.awt.Color(0, 0, 0));
         lbl8.setText("Nombre:");
 
+<<<<<<< HEAD
         nombreLbl.setBackground(new java.awt.Color(0, 0, 0));
         nombreLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         nombreLbl.setForeground(new java.awt.Color(0, 0, 0));
@@ -212,14 +310,58 @@ public class Empleados extends javax.swing.JPanel {
 
         correoEmpleadoTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         correoEmpleadoTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        jLabel11.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("{Nombre}");
+
+        jButton1.setBackground(new java.awt.Color(18, 90, 173));
+        jButton1.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Agregar");
+        jButton1.setBorderPainted(false);
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setBackground(new java.awt.Color(18, 90, 173));
+        jButton3.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setText("Consultar");
+        jButton3.setBorderPainted(false);
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        codClientVentas1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas1.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas1.setText("jTextField1");
+
+        codClientVentas2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas2.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas2.setText("jTextField1");
+>>>>>>> master
 
         lbl5.setBackground(new java.awt.Color(0, 0, 0));
         lbl5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl5.setForeground(new java.awt.Color(0, 0, 0));
         lbl5.setText("Celular:");
 
+<<<<<<< HEAD
         celularEmpleadoTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         celularEmpleadoTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        codClientVentas3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas3.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas3.setText("jTextField1");
+>>>>>>> master
 
         lbl9.setBackground(new java.awt.Color(0, 0, 0));
         lbl9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -236,6 +378,7 @@ public class Empleados extends javax.swing.JPanel {
         lbl11.setForeground(new java.awt.Color(0, 0, 0));
         lbl11.setText("Celular:");
 
+<<<<<<< HEAD
         cargoLbl.setBackground(new java.awt.Color(0, 0, 0));
         cargoLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         cargoLbl.setForeground(new java.awt.Color(0, 0, 0));
@@ -277,6 +420,48 @@ public class Empleados extends javax.swing.JPanel {
         eliminarEmpleadoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eliminarEmpleadoBtnActionPerformed(evt);
+=======
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel15.setText("{Membresia}");
+
+        jLabel16.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel16.setText("{Correo}");
+
+        jLabel17.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel17.setText("{celular}");
+
+        codClientVentas5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas5.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas5.setText("jTextField1");
+
+        jButton4.setBackground(new java.awt.Color(18, 90, 173));
+        jButton4.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setText("Editar");
+        jButton4.setBorderPainted(false);
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        jButton5.setBackground(new java.awt.Color(18, 90, 173));
+        jButton5.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("Eliminar");
+        jButton5.setBorderPainted(false);
+        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+>>>>>>> master
             }
         });
 
@@ -285,17 +470,30 @@ public class Empleados extends javax.swing.JPanel {
         lbl6.setForeground(new java.awt.Color(0, 0, 0));
         lbl6.setText("Contraseña:");
 
+<<<<<<< HEAD
         contraseñaEmpleadoTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         contraseñaEmpleadoTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        contraEmpleadoTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        contraEmpleadoTxt.setForeground(new java.awt.Color(0, 0, 0));
+        contraEmpleadoTxt.setText("jTextField1");
+>>>>>>> master
 
         lbl12.setBackground(new java.awt.Color(0, 0, 0));
         lbl12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl12.setForeground(new java.awt.Color(0, 0, 0));
         lbl12.setText("Contraseña:");
 
+<<<<<<< HEAD
         contraseñaLbl.setBackground(new java.awt.Color(0, 0, 0));
         contraseñaLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         contraseñaLbl.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        jLabel20.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel20.setText("{contraseña}");
+>>>>>>> master
 
         javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
         bg.setLayout(bgLayout);
@@ -306,13 +504,18 @@ public class Empleados extends javax.swing.JPanel {
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(bgLayout.createSequentialGroup()
                         .addGap(443, 443, 443)
+<<<<<<< HEAD
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+=======
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+>>>>>>> master
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addGap(26, 26, 26)
                                 .addComponent(titleLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl7)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                                 .addComponent(cedulaEmpleadoConsultaTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl9)
@@ -323,10 +526,24 @@ public class Empleados extends javax.swing.JPanel {
                                 .addComponent(lbl12)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(contraseñaLbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                                .addComponent(codClientVentas5, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(lbl9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel15))
+                            .addComponent(lbl10)
+                            .addComponent(jLabel16)
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(lbl12)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel20))
+>>>>>>> master
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl8)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
                                     .addComponent(consultarEmpleadoBtn)
                                     .addComponent(nombreLbl, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addComponent(correoLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -370,12 +587,58 @@ public class Empleados extends javax.swing.JPanel {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(celularLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(27, Short.MAX_VALUE))
+=======
+                                    .addComponent(jButton3)
+                                    .addComponent(jLabel11)))))
+                    .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, bgLayout.createSequentialGroup()
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addGap(52, 52, 52)
+                                    .addComponent(jButton4)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(jButton5))
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addGap(27, 27, 27)
+                                    .addComponent(lbl11)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jLabel17))))
+                        .addGroup(bgLayout.createSequentialGroup()
+                            .addComponent(lbl1)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(lbl2)
+                            .addGap(16, 16, 16)
+                            .addComponent(codClientVentas1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(jButton1)))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addComponent(lbl3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(librosCbxVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas2, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(contraEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(37, Short.MAX_VALUE))
+>>>>>>> master
         );
         bgLayout.setVerticalGroup(
             bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(bgLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                     .addComponent(cedulaEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lbl2)
                     .addComponent(lbl1)
@@ -391,6 +654,23 @@ public class Empleados extends javax.swing.JPanel {
                     .addComponent(lbl3)
                     .addComponent(lbl6)
                     .addComponent(contraseñaEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                    .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl2)
+                    .addComponent(lbl1)
+                    .addComponent(codClientVentas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
+                .addGap(18, 18, 18)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(librosCbxVentas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl4)
+                    .addComponent(codClientVentas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl5)
+                    .addComponent(codClientVentas3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl3)
+                    .addComponent(lbl6)
+                    .addComponent(contraEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> master
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(bgLayout.createSequentialGroup()
                         .addGap(12, 12, 12)
@@ -402,6 +682,7 @@ public class Empleados extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lbl7)
+<<<<<<< HEAD
                             .addComponent(cedulaEmpleadoConsultaTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(consultarEmpleadoBtn)
@@ -430,6 +711,36 @@ public class Empleados extends javax.swing.JPanel {
                             .addComponent(editarEmpleadoBtn)
                             .addComponent(eliminarEmpleadoBtn))
                         .addContainerGap(131, Short.MAX_VALUE))))
+=======
+                            .addComponent(codClientVentas5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton3)
+                        .addGap(12, 12, 12)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl8)
+                            .addComponent(jLabel11))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl9)
+                            .addComponent(jLabel15))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel16)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl11)
+                            .addComponent(jLabel17))
+                        .addGap(5, 5, 5)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl12)
+                            .addComponent(jLabel20))
+                        .addGap(18, 18, 18)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton4)
+                            .addComponent(jButton5))
+                        .addContainerGap(116, Short.MAX_VALUE))))
+>>>>>>> master
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -444,6 +755,7 @@ public class Empleados extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void cargoEmpleadoCbxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cargoEmpleadoCbxActionPerformed
         //NO LO USO NO SE QUITARLO
     }//GEN-LAST:event_cargoEmpleadoCbxActionPerformed
@@ -590,10 +902,33 @@ public class Empleados extends javax.swing.JPanel {
     private void cedulaEmpleadoConsultaTxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cedulaEmpleadoConsultaTxtActionPerformed
         //YA NO LO USO PERO NO SE QUITARLO       
     }//GEN-LAST:event_cedulaEmpleadoConsultaTxtActionPerformed
+=======
+    private void librosCbxVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_librosCbxVentasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_librosCbxVentasActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        EditarEmpleado c = new EditarEmpleado();
+        c.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+>>>>>>> master
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
+<<<<<<< HEAD
     private javax.swing.JComboBox<String> cargoEmpleadoCbx;
     private javax.swing.JLabel cargoLbl;
     private javax.swing.JTextField cedulaEmpleadoConsultaTxt;
@@ -610,6 +945,24 @@ public class Empleados extends javax.swing.JPanel {
     private javax.swing.JButton eliminarEmpleadoBtn;
     private javax.swing.JTable empleadosTbl;
     private javax.swing.JComboBox<String> jComboBox2;
+=======
+    private javax.swing.JTextField codClientVentas;
+    private javax.swing.JTextField codClientVentas1;
+    private javax.swing.JTextField codClientVentas2;
+    private javax.swing.JTextField codClientVentas3;
+    private javax.swing.JTextField codClientVentas5;
+    private javax.swing.JTextField contraEmpleadoTxt;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel20;
+>>>>>>> master
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel lbl1;
     private javax.swing.JLabel lbl10;
@@ -623,8 +976,13 @@ public class Empleados extends javax.swing.JPanel {
     private javax.swing.JLabel lbl7;
     private javax.swing.JLabel lbl8;
     private javax.swing.JLabel lbl9;
+<<<<<<< HEAD
     private javax.swing.JTextField nombreEmpleadoTxt;
     private javax.swing.JLabel nombreLbl;
+=======
+    private javax.swing.JComboBox<String> librosCbxVentas;
+    private javax.swing.JTable librosTbl;
+>>>>>>> master
     private javax.swing.JLabel titleLbl;
     // End of variables declaration//GEN-END:variables
 }

@@ -49,7 +49,11 @@ public class EmpleadoController implements FuncionesController{
         Connection connection = cx.conectar();
         
         try(connection){
+<<<<<<< HEAD
             String query = "INSERT INTO `empleado` (cedula, nombre, cargo, correo, celular, contrasena)"
+=======
+            String query = "INSERT INTO `empleado` (cedula, nombre, cargo, correo, celular, contraseña)"
+>>>>>>> master
                          + "VALUES (?,?,?,?,?,?)";
             
             EmpleadoModel empleado = (EmpleadoModel) model;
@@ -77,6 +81,7 @@ public class EmpleadoController implements FuncionesController{
         Connection connection = cx.conectar();
         
         try(connection){
+<<<<<<< HEAD
             String query = "UPDATE `empleado` SET nombre=?, cargo=?, correo=?, celular=?, contrasena=? WHERE cedula = ?";
             
             EmpleadoModel empleado = (EmpleadoModel) model;
@@ -88,6 +93,20 @@ public class EmpleadoController implements FuncionesController{
             stmt.setString(4, empleado.getCelular());
             stmt.setString(5, empleado.getContraseña());
             stmt.setString(6, empleado.getCedula());            
+=======
+            String query = "UPDATE `empleado` SET cedula=?, nombre=?, cargo=?, correo=?, celular=?, contraseña=? WHERE id = ?";
+            
+            EmpleadoModel empleado = (EmpleadoModel) model;
+            
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setString(1, empleado.getCedula());
+            stmt.setString(2, empleado.getNombre());
+            stmt.setString(3, empleado.getCargo());
+            stmt.setString(4, empleado.getCorreo());
+            stmt.setString(5, empleado.getCelular());
+            stmt.setString(6, empleado.getContraseña());
+            stmt.setInt(7, empleado.getId());
+>>>>>>> master
             
             stmt.executeUpdate();
             stmt.close();
@@ -130,7 +149,10 @@ public class EmpleadoController implements FuncionesController{
     public ArrayList<PersonaModel> findAll() {
         
         ArrayList<PersonaModel> lista = new ArrayList<>();
+<<<<<<< HEAD
         //ArrayList<EmpleadoModel> lista = new ArrayList<>();
+=======
+>>>>>>> master
         EmpleadoModel empleado = null;
         Connection connection = cx.conectar();
         
@@ -162,6 +184,7 @@ public class EmpleadoController implements FuncionesController{
             System.out.println("Error de Data: " + e.getMessage());
             return null;
         }                
+<<<<<<< HEAD
     }    
     
     public boolean login(String cedula, String password){
@@ -184,4 +207,9 @@ public class EmpleadoController implements FuncionesController{
         }        
     }
         
+=======
+    }   
+ 
+    
+>>>>>>> master
 }

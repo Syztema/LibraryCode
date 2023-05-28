@@ -49,37 +49,61 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="codigoLbl" min="-2" pref="158" max="-2" attributes="0"/>
+=======
+                          <Component id="jLabel3" min="-2" pref="158" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="nombreLibroTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                          <Component id="jTextField1" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="cantidadLibroSpn" min="-2" max="-2" attributes="0"/>
+=======
+                          <Component id="jSpinner1" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="autorLibroTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                          <Component id="jTextField2" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl5" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="editorialLibroTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                          <Component id="jTextField3" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="precioLibroTxt" min="-2" pref="167" max="-2" attributes="0"/>
+=======
+                          <Component id="jTextField4" min="-2" pref="167" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
@@ -87,7 +111,11 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="164" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="editarLibroBtn" min="-2" max="-2" attributes="0"/>
+=======
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                       </Group>
                   </Group>
                   <EmptySpace pref="99" max="32767" attributes="0"/>
@@ -102,35 +130,62 @@
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="codigoLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="nombreLibroTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="cantidadLibroSpn" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="autorLibroTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="editorialLibroTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="precioLibroTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="editarLibroBtn" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="jTextField4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   <EmptySpace pref="22" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -154,11 +209,19 @@
             <Property name="text" type="java.lang.String" value="C&#xf3;digo Libro:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="codigoLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel3">
+>>>>>>> master
           <Properties>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jLabel3"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl2">
@@ -169,7 +232,14 @@
             <Property name="text" type="java.lang.String" value="Nombre Libro:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="nombreLibroTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
         <Component class="javax.swing.JLabel" name="lbl3">
           <Properties>
@@ -187,7 +257,14 @@
             <Property name="text" type="java.lang.String" value="Autor:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="autorLibroTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
         <Component class="javax.swing.JLabel" name="lbl5">
           <Properties>
@@ -197,9 +274,18 @@
             <Property name="text" type="java.lang.String" value="Editorial:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="editorialLibroTxt">
         </Component>
         <Component class="javax.swing.JButton" name="editarLibroBtn">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="a3" green="5a" red="12" type="rgb"/>
@@ -213,10 +299,17 @@
             <Property name="text" type="java.lang.String" value="Editar"/>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarLibroBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JSpinner" name="cantidadLibroSpn">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="jSpinner1">
+>>>>>>> master
         </Component>
         <Component class="javax.swing.JLabel" name="lbl6">
           <Properties>
@@ -226,7 +319,14 @@
             <Property name="text" type="java.lang.String" value="Precio:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="precioLibroTxt">
+=======
+        <Component class="javax.swing.JTextField" name="jTextField4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+>>>>>>> master
         </Component>
       </SubComponents>
     </Container>

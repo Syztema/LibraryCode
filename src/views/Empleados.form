@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<<<<<<< HEAD
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+=======
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+>>>>>>> master
   <NonVisualComponents>
     <Component class="javax.swing.JComboBox" name="jComboBox2">
       <Properties>
@@ -63,7 +67,11 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="443" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
+=======
+                          <Group type="103" groupAlignment="0" attributes="0">
+>>>>>>> master
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                   <Component id="titleLbl" min="-2" pref="129" max="-2" attributes="0"/>
@@ -71,11 +79,16 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl7" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                   <Component id="cedulaEmpleadoConsultaTxt" min="-2" pref="136" max="-2" attributes="0"/>
+=======
+                                  <Component id="codClientVentas5" min="-2" pref="136" max="-2" attributes="0"/>
+>>>>>>> master
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl9" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                   <Component id="cargoLbl" min="-2" pref="193" max="-2" attributes="0"/>
                               </Group>
                               <Component id="lbl10" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -83,11 +96,22 @@
                                   <Component id="lbl12" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="contraseñaLbl" max="32767" attributes="0"/>
+=======
+                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lbl10" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lbl12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl8" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                       <Component id="consultarEmpleadoBtn" min="-2" max="-2" attributes="0"/>
                                       <Component id="nombreLbl" max="32767" attributes="0"/>
                                   </Group>
@@ -105,10 +129,48 @@
                           <Component id="nombreEmpleadoTxt" min="-2" pref="136" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="crearEmpleadoBtn" min="-2" max="-2" attributes="0"/>
+=======
+                                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jScrollPane1" min="-2" pref="416" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                      <Component id="lbl11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lbl1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="codClientVentas" min="-2" pref="136" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="lbl2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Component id="codClientVentas1" min="-2" pref="136" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+>>>>>>> master
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="lbl3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="cargoEmpleadoCbx" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl4" min="-2" max="-2" attributes="0"/>
@@ -142,6 +204,24 @@
                       </Group>
                   </Group>
                   <EmptySpace pref="27" max="32767" attributes="0"/>
+=======
+                          <Component id="librosCbxVentas" min="-2" pref="97" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbl4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="codClientVentas2" min="-2" pref="136" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbl5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="codClientVentas3" min="-2" pref="90" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbl6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="contraEmpleadoTxt" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="37" max="32767" attributes="0"/>
+>>>>>>> master
               </Group>
           </Group>
         </DimensionLayout>
@@ -150,6 +230,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                       <Component id="cedulaEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -166,6 +247,24 @@
                       <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="contraseñaEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="codClientVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="librosCbxVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="contraEmpleadoTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
@@ -179,6 +278,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl7" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="cedulaEmpleadoConsultaTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -187,24 +287,47 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl8" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="nombreLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="codClientVentas5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl9" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="cargoLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="correoLbl" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl11" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="celularLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl11" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                           </Group>
                           <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl12" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="contraseñaLbl" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -213,6 +336,16 @@
                               <Component id="eliminarEmpleadoBtn" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="131" max="32767" attributes="0"/>
+=======
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="116" max="32767" attributes="0"/>
+>>>>>>> master
                       </Group>
                   </Group>
               </Group>
@@ -234,7 +367,11 @@
             <Property name="text" type="java.lang.String" value="Cargo:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JComboBox" name="cargoEmpleadoCbx">
+=======
+        <Component class="javax.swing.JComboBox" name="librosCbxVentas">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -243,16 +380,29 @@
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+<<<<<<< HEAD
               <StringArray count="4">
                 <StringItem index="0" value=""/>
                 <StringItem index="1" value="Vendedor"/>
                 <StringItem index="2" value="Administrador"/>
                 <StringItem index="3" value="Developer"/>
+=======
+              <StringArray count="5">
+                <StringItem index="0" value="Arroz"/>
+                <StringItem index="1" value="Papa"/>
+                <StringItem index="2" value="Carne"/>
+                <StringItem index="3" value="Platano"/>
+                <StringItem index="4" value="Huevos"/>
+>>>>>>> master
               </StringArray>
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cargoEmpleadoCbxActionPerformed"/>
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="librosCbxVentasActionPerformed"/>
+>>>>>>> master
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
@@ -269,10 +419,17 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Cedula Empleado:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="cedulaEmpleadoTxt">
+=======
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n Empleado:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -280,6 +437,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl2">
@@ -314,6 +475,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
+<<<<<<< HEAD
             <Component class="javax.swing.JTable" name="empleadosTbl">
               <Properties>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
@@ -369,6 +531,18 @@
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
+=======
+            <Component class="javax.swing.JTable" name="librosTbl">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+>>>>>>> master
               </Properties>
             </Component>
           </SubComponents>
@@ -399,7 +573,11 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Cedula:"/>
+=======
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n:"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl8">
@@ -416,7 +594,11 @@
             <Property name="text" type="java.lang.String" value="Nombre:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="nombreLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel11">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -427,9 +609,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="crearEmpleadoBtn">
+=======
+            <Property name="text" type="java.lang.String" value="{Nombre}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -447,10 +636,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearEmpleadoBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="consultarEmpleadoBtn">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -468,10 +664,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarEmpleadoBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="nombreEmpleadoTxt">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas1">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -479,9 +682,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="correoEmpleadoTxt">
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas2">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -489,6 +699,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl5">
@@ -505,7 +719,11 @@
             <Property name="text" type="java.lang.String" value="Celular:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="celularEmpleadoTxt">
+=======
+        <Component class="javax.swing.JTextField" name="codClientVentas3">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -513,6 +731,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl9">
@@ -557,7 +779,11 @@
             <Property name="text" type="java.lang.String" value="Celular:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="cargoLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel15">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -568,9 +794,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="correoLbl">
+=======
+            <Property name="text" type="java.lang.String" value="{Membresia}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -581,9 +814,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="celularLbl">
+=======
+            <Property name="text" type="java.lang.String" value="{Correo}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -594,9 +834,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="cedulaEmpleadoConsultaTxt">
+=======
+            <Property name="text" type="java.lang.String" value="{celular}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas5">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -604,12 +851,19 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cedulaEmpleadoConsultaTxtActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="editarEmpleadoBtn">
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -627,10 +881,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarEmpleadoBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="eliminarEmpleadoBtn">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -648,7 +909,11 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarEmpleadoBtnActionPerformed"/>
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+>>>>>>> master
           </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl6">
@@ -665,7 +930,11 @@
             <Property name="text" type="java.lang.String" value="Contrase&#xf1;a:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="contrase&#xf1;aEmpleadoTxt">
+=======
+        <Component class="javax.swing.JTextField" name="contraEmpleadoTxt">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -673,6 +942,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl12">
@@ -689,7 +962,11 @@
             <Property name="text" type="java.lang.String" value="Contrase&#xf1;a:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="contrase&#xf1;aLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel20">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -700,6 +977,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="{contrase&#xf1;a}"/>
+>>>>>>> master
           </Properties>
         </Component>
       </SubComponents>

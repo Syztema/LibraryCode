@@ -61,6 +61,7 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD:build/classes/views/Clientes.form
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="443" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -93,10 +94,17 @@
                                       <Component id="nombreLbl" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
+=======
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+>>>>>>> master:build/classes/view/Ventas.form
                           </Group>
                       </Group>
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD:build/classes/views/Clientes.form
                               <Group type="102" attributes="0">
                                   <Component id="lbl1" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -126,6 +134,31 @@
                                   <Component id="nombreClienteTxt" min="-2" pref="136" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="crearClienteBtn" min="-2" max="-2" attributes="0"/>
+=======
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="librosCbxVentas" min="-2" pref="97" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cantidadSpnVentas" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="precioVentas" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="codClientVentas" min="-2" pref="136" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="nameClientVentas" min="-2" pref="114" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="membresiaVentas" min="-2" pref="114" max="-2" attributes="0"/>
+>>>>>>> master:build/classes/view/Ventas.form
                               </Group>
                           </Group>
                       </Group>
@@ -134,10 +167,22 @@
                           <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                           <Component id="editarClienteBtn" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
+<<<<<<< HEAD:build/classes/views/Clientes.form
                           <Component id="eliminarClienteBtn" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="37" max="32767" attributes="0"/>
+=======
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="totalVentas" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                              <Component id="subtotalVentas" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+>>>>>>> master:build/classes/view/Ventas.form
               </Group>
           </Group>
         </DimensionLayout>
@@ -146,6 +191,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD:build/classes/views/Clientes.form
                       <Component id="cedulaClienteTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -160,6 +206,24 @@
                       <Component id="celularClienteTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="membresiaClienteCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="codClientVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="nameClientVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="membresiaVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="librosCbxVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cantidadSpnVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="precioVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master:build/classes/view/Ventas.form
                   </Group>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -196,6 +260,7 @@
                               <Component id="lbl10" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="celularLbl" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD:build/classes/views/Clientes.form
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="editarClienteBtn" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -204,6 +269,13 @@
                           <EmptySpace pref="127" max="32767" attributes="0"/>
                       </Group>
                   </Group>
+=======
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="89" max="32767" attributes="0"/>
+>>>>>>> master:build/classes/view/Ventas.form
               </Group>
           </Group>
         </DimensionLayout>
@@ -269,7 +341,11 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD:build/classes/views/Clientes.form
             <Property name="text" type="java.lang.String" value="Correo:"/>
+=======
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n Cliente:"/>
+>>>>>>> master:build/classes/view/Ventas.form
           </Properties>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -450,7 +526,32 @@
             </Property>
           </Properties>
         </Component>
+<<<<<<< HEAD:build/classes/views/Clientes.form
         <Component class="javax.swing.JLabel" name="lbl5">
+=======
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="librosTbl">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+>>>>>>> master:build/classes/view/Ventas.form
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -630,6 +731,36 @@
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ad" green="5a" red="12" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Agregar"/>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ad" green="5a" red="12" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Facturar"/>
+            <Property name="borderPainted" type="boolean" value="false"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<<<<<<< HEAD
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+=======
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+>>>>>>> master
   <NonVisualComponents>
     <Component class="javax.swing.JComboBox" name="jComboBox2">
       <Properties>
@@ -71,11 +75,16 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl6" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                   <Component id="cedulaClienteConsultaTxt" min="-2" pref="136" max="-2" attributes="0"/>
+=======
+                                  <Component id="codClientVentas5" min="-2" pref="136" max="-2" attributes="0"/>
+>>>>>>> master
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl8" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                                   <Component id="membresiaLbl" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="lbl9" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -84,17 +93,40 @@
                                   <Component id="lbl10" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="celularLbl" min="-2" max="-2" attributes="0"/>
+=======
+                                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="lbl9" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="lbl10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="lbl7" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                       <Component id="consultarClienteBtn" min="-2" max="-2" attributes="0"/>
                                       <Component id="nombreLbl" min="-2" max="-2" attributes="0"/>
+=======
+                                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                                   </Group>
                               </Group>
                           </Group>
                       </Group>
+<<<<<<< HEAD
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
@@ -136,6 +168,45 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="eliminarClienteBtn" min="-2" max="-2" attributes="0"/>
                       </Group>
+=======
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Component id="jScrollPane1" alignment="0" min="-2" pref="416" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="lbl1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="codClientVentas" min="-2" pref="136" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="lbl2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbl3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="librosCbxVentas" min="-2" pref="97" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="lbl4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="codClientVentas2" min="-2" pref="136" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                      <Component id="lbl5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="codClientVentas3" min="-2" pref="136" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="codClientVentas1" min="-2" pref="136" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+>>>>>>> master
                   </Group>
                   <EmptySpace pref="37" max="32767" attributes="0"/>
               </Group>
@@ -146,6 +217,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                       <Component id="cedulaClienteTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -160,6 +232,22 @@
                       <Component id="celularClienteTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="membresiaClienteCbx" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="codClientVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="librosCbxVentas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="codClientVentas3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbl3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                   </Group>
                   <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -173,6 +261,7 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl6" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="cedulaClienteConsultaTxt" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
@@ -181,15 +270,30 @@
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl7" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="nombreLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="codClientVentas5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="lbl8" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="membresiaLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> master
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="lbl9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="correoLbl" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
@@ -202,6 +306,20 @@
                               <Component id="eliminarClienteBtn" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="127" max="32767" attributes="0"/>
+=======
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="lbl10" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="122" max="32767" attributes="0"/>
+>>>>>>> master
                       </Group>
                   </Group>
               </Group>
@@ -223,6 +341,34 @@
             <Property name="text" type="java.lang.String" value="Membres&#xed;a:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
+=======
+        <Component class="javax.swing.JComboBox" name="librosCbxVentas">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Arroz"/>
+                <StringItem index="1" value="Papa"/>
+                <StringItem index="2" value="Carne"/>
+                <StringItem index="3" value="Platano"/>
+                <StringItem index="4" value="Huevos"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="librosCbxVentasActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+>>>>>>> master
         <Component class="javax.swing.JLabel" name="lbl1">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -234,10 +380,17 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Cedula Cliente:"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="cedulaClienteTxt">
+=======
+            <Property name="text" type="java.lang.String" value="Identificaci&#xf3;n Cliente:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -245,6 +398,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl2">
@@ -279,6 +436,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
+<<<<<<< HEAD
             <Component class="javax.swing.JTable" name="clientesTbl">
               <Properties>
                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
@@ -328,6 +486,18 @@
                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                 </Property>
+=======
+            <Component class="javax.swing.JTable" name="librosTbl">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+>>>>>>> master
               </Properties>
             </Component>
           </SubComponents>
@@ -375,7 +545,11 @@
             <Property name="text" type="java.lang.String" value="Nombre:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="nombreLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel11">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -386,9 +560,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="crearClienteBtn">
+=======
+            <Property name="text" type="java.lang.String" value="{Nombre}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -406,10 +587,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="crearClienteBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="consultarClienteBtn">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -427,10 +615,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="consultarClienteBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="nombreClienteTxt">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas1">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -438,9 +633,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="correoClienteTxt">
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas2">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -448,6 +650,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl5">
@@ -464,7 +670,11 @@
             <Property name="text" type="java.lang.String" value="Celular:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JTextField" name="celularClienteTxt">
+=======
+        <Component class="javax.swing.JTextField" name="codClientVentas3">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -472,6 +682,10 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+>>>>>>> master
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lbl8">
@@ -516,7 +730,11 @@
             <Property name="text" type="java.lang.String" value="Celular:"/>
           </Properties>
         </Component>
+<<<<<<< HEAD
         <Component class="javax.swing.JLabel" name="membresiaLbl">
+=======
+        <Component class="javax.swing.JLabel" name="jLabel15">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -527,9 +745,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="correoLbl">
+=======
+            <Property name="text" type="java.lang.String" value="{Membresia}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -540,9 +765,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="celularLbl">
+=======
+            <Property name="text" type="java.lang.String" value="{Correo}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel17">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
@@ -553,9 +785,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="cedulaClienteConsultaTxt">
+=======
+            <Property name="text" type="java.lang.String" value="{celular}"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="codClientVentas5">
+>>>>>>> master
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="12" style="0"/>
@@ -563,9 +802,16 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="0" type="rgb"/>
             </Property>
+<<<<<<< HEAD
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="editarClienteBtn">
+=======
+            <Property name="text" type="java.lang.String" value="jTextField1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -583,10 +829,17 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editarClienteBtnActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="eliminarClienteBtn">
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+>>>>>>> master
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ad" green="5a" red="12" type="rgb"/>
@@ -604,6 +857,7 @@
             </Property>
           </Properties>
           <Events>
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="eliminarClienteBtnActionPerformed"/>
           </Events>
         </Component>
@@ -630,6 +884,10 @@
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
           </AuxValues>
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
+>>>>>>> master
         </Component>
       </SubComponents>
     </Container>

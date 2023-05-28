@@ -5,17 +5,22 @@
 package views;
 
 import com.formdev.flatlaf.FlatLightLaf;
+<<<<<<< HEAD
 import controllers.EmpleadoController;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import models.EmpleadoModel;
+=======
+import java.awt.Color;
+>>>>>>> master
 
 /**
  *
  * @author crist
  */
+<<<<<<< HEAD
 public class EditarEmpleado extends javax.swing.JFrame {        
     
     EmpleadoController empleadoController;
@@ -47,10 +52,35 @@ public class EditarEmpleado extends javax.swing.JFrame {
         lbl5.setForeground(Color.black);
         lbl6.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
         lbl6.setForeground(Color.black);
+=======
+public class EditarEmpleado extends javax.swing.JFrame {
+
+    /**
+     * Creates new form AgregarCliente
+     */
+    public EditarEmpleado() {
+        initComponents();
+        FlatLightLaf.install();
+        InitStyles();
+    }
+
+     private void InitStyles(){
+        lbl1.putClientProperty("FlatLaf.styleClass", "large");
+        lbl1.setForeground(Color.black);
+        lbl2.putClientProperty("FlatLaf.styleClass", "large");
+        lbl2.setForeground(Color.black);
+        lbl3.putClientProperty("FlatLaf.styleClass", "large");
+        lbl3.setForeground(Color.black);
+        lbl4.putClientProperty("FlatLaf.styleClass", "large");
+        lbl4.setForeground(Color.black);
+        lbl5.putClientProperty("FlatLaf.styleClass", "large");
+        lbl5.setForeground(Color.black);
+>>>>>>> master
         titleLbl.putClientProperty("FlatLaf.style", "font: bold $h3.regular.font");
         titleLbl.setForeground(Color.black);
     }
     
+<<<<<<< HEAD
     private void LoadEmpleado(EmpleadoModel e){
         cedulaEmpleadoLbl.setText(e.getCedula());
         nombreEmpleadoTxt.setText(e.getNombre());
@@ -74,6 +104,8 @@ public class EditarEmpleado extends javax.swing.JFrame {
         empleadoController.findAll().forEach((u) -> tabla.addRow(new Object[] {u.getId(), u.getCedula(), u.getNombre(), u.getCargo(), u.getCorreo(), u.getCelular(), u.getContraseña()}));        
     }
     
+=======
+>>>>>>> master
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -86,6 +118,7 @@ public class EditarEmpleado extends javax.swing.JFrame {
         bg = new javax.swing.JPanel();
         titleLbl = new javax.swing.JLabel();
         lbl1 = new javax.swing.JLabel();
+<<<<<<< HEAD
         cedulaEmpleadoLbl = new javax.swing.JLabel();
         lbl2 = new javax.swing.JLabel();
         nombreEmpleadoTxt = new javax.swing.JTextField();
@@ -98,6 +131,20 @@ public class EditarEmpleado extends javax.swing.JFrame {
         editarEmpleadoBtn = new javax.swing.JButton();
         lbl6 = new javax.swing.JLabel();
         contraseñaEmpleadoTxt = new javax.swing.JTextField();
+=======
+        jLabel3 = new javax.swing.JLabel();
+        lbl2 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        lbl3 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        lbl4 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        lbl5 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        lbl6 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+>>>>>>> master
 
         setLocationByPlatform(true);
 
@@ -108,21 +155,38 @@ public class EditarEmpleado extends javax.swing.JFrame {
         titleLbl.setText("Edición de Empleados");
 
         lbl1.setForeground(new java.awt.Color(0, 0, 0));
+<<<<<<< HEAD
         lbl1.setText("Cedula Empleado:");
 
         cedulaEmpleadoLbl.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        lbl1.setText("Identificación Empleado:");
+
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("jLabel3");
+>>>>>>> master
 
         lbl2.setForeground(new java.awt.Color(0, 0, 0));
         lbl2.setText("Nombre Empleado:");
 
+<<<<<<< HEAD
         lbl3.setForeground(new java.awt.Color(0, 0, 0));
         lbl3.setText("Cargo:");
 
         cargoEmpleadoCbx.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Vendedor", "Administrador", "Developer" }));
+=======
+        jTextField1.setText("jTextField1");
+
+        lbl3.setForeground(new java.awt.Color(0, 0, 0));
+        lbl3.setText("Cargo:");
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+>>>>>>> master
 
         lbl4.setForeground(new java.awt.Color(0, 0, 0));
         lbl4.setText("Correo Empleado:");
 
+<<<<<<< HEAD
         lbl5.setForeground(new java.awt.Color(0, 0, 0));
         lbl5.setText("Celular Empleado:");
 
@@ -134,12 +198,33 @@ public class EditarEmpleado extends javax.swing.JFrame {
         editarEmpleadoBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 editarEmpleadoBtnActionPerformed(evt);
+=======
+        jTextField2.setText("jTextField1");
+
+        lbl5.setForeground(new java.awt.Color(0, 0, 0));
+        lbl5.setText("Celular Empleado:");
+
+        jTextField3.setText("jTextField1");
+
+        jButton1.setBackground(new java.awt.Color(18, 90, 163));
+        jButton1.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Editar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+>>>>>>> master
             }
         });
 
         lbl6.setForeground(new java.awt.Color(0, 0, 0));
         lbl6.setText("Contraseña Empleado:");
 
+<<<<<<< HEAD
+=======
+        jTextField4.setText("jTextField1");
+
+>>>>>>> master
         javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
         bg.setLayout(bgLayout);
         bgLayout.setHorizontalGroup(
@@ -154,6 +239,7 @@ public class EditarEmpleado extends javax.swing.JFrame {
                                 .addGroup(bgLayout.createSequentialGroup()
                                     .addComponent(lbl1)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                                     .addComponent(cedulaEmpleadoLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(bgLayout.createSequentialGroup()
                                     .addComponent(lbl2)
@@ -171,15 +257,42 @@ public class EditarEmpleado extends javax.swing.JFrame {
                                     .addComponent(lbl5)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(celularEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+=======
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addComponent(lbl2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addComponent(lbl3)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addComponent(lbl4)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addComponent(lbl5)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+>>>>>>> master
                     .addGroup(bgLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(lbl6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                         .addComponent(contraseñaEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(bgLayout.createSequentialGroup()
                         .addGap(155, 155, 155)
                         .addComponent(editarEmpleadoBtn)))
                 .addContainerGap(102, Short.MAX_VALUE))
+=======
+                        .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addGap(155, 155, 155)
+                        .addComponent(jButton1)))
+                .addContainerGap(99, Short.MAX_VALUE))
+>>>>>>> master
         );
         bgLayout.setVerticalGroup(
             bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -189,6 +302,7 @@ public class EditarEmpleado extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lbl1)
+<<<<<<< HEAD
                     .addComponent(cedulaEmpleadoLbl))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -212,6 +326,31 @@ public class EditarEmpleado extends javax.swing.JFrame {
                     .addComponent(contraseñaEmpleadoTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(editarEmpleadoBtn)
+=======
+                    .addComponent(jLabel3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl2)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl3)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(15, 15, 15)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl4)
+                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl5)
+                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl6)
+                    .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton1)
+>>>>>>> master
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -229,6 +368,7 @@ public class EditarEmpleado extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void editarEmpleadoBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editarEmpleadoBtnActionPerformed
         if(nombreEmpleadoTxt.getText().equals("") || cargoEmpleadoCbx.getSelectedItem().toString().equals("") || correoEmpleadoTxt.getText().equals("") || contraseñaEmpleadoTxt.getText().equals("")){
             JOptionPane.showMessageDialog(null, "Complete Los Campos Necesarios");
@@ -245,23 +385,42 @@ public class EditarEmpleado extends javax.swing.JFrame {
         }        
     }//GEN-LAST:event_editarEmpleadoBtnActionPerformed
         
+=======
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+>>>>>>> master
         
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel bg;
+<<<<<<< HEAD
     private javax.swing.JComboBox<String> cargoEmpleadoCbx;
     private javax.swing.JLabel cedulaEmpleadoLbl;
     private javax.swing.JTextField celularEmpleadoTxt;
     private javax.swing.JTextField contraseñaEmpleadoTxt;
     private javax.swing.JTextField correoEmpleadoTxt;
     private javax.swing.JButton editarEmpleadoBtn;
+=======
+    private javax.swing.JButton jButton1;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+>>>>>>> master
     private javax.swing.JLabel lbl1;
     private javax.swing.JLabel lbl2;
     private javax.swing.JLabel lbl3;
     private javax.swing.JLabel lbl4;
     private javax.swing.JLabel lbl5;
     private javax.swing.JLabel lbl6;
+<<<<<<< HEAD
     private javax.swing.JTextField nombreEmpleadoTxt;
+=======
+>>>>>>> master
     private javax.swing.JLabel titleLbl;
     // End of variables declaration//GEN-END:variables
 }

@@ -10,12 +10,15 @@ public class ClienteModel extends PersonaModel{
         this.membresia = membresia;
     }
     
+<<<<<<< HEAD
     public ClienteModel(String cedula, String nombre, String membresia, String correo, String celular) {    
         super(cedula, nombre, correo, celular);
         this.membresia = membresia;
     }
     
     
+=======
+>>>>>>> master
     //GETTERS AND SETTERS
     public String getMembresia() {
         return membresia;

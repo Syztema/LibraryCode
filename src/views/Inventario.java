@@ -5,6 +5,7 @@
 package views;
 
 import com.formdev.flatlaf.FlatLightLaf;
+<<<<<<< HEAD
 import controllers.LibroController;
 import java.awt.Color;
 import java.util.ArrayList;
@@ -15,6 +16,9 @@ import javax.swing.event.DocumentListener;
 import javax.swing.table.DefaultTableModel;
 import models.LibroModel;
 import models.VentaModel;
+=======
+import java.awt.Color;
+>>>>>>> master
 
 /**
  *
@@ -22,21 +26,30 @@ import models.VentaModel;
  */
 public class Inventario extends javax.swing.JPanel {
 
+<<<<<<< HEAD
     //CREACION DE VARIABLES
     LibroController libroController;
     LibroModel libro;
     
     
+=======
+>>>>>>> master
     /**
      * Creates new form Principal
      */
     public Inventario() {
+<<<<<<< HEAD
         libroController = new LibroController();        
         FlatLightLaf.install();
         initComponents();
         InitStyles();  
         LoadLibros();
         setJTexFieldChanged(this.codigoLibroConstultaTxt);
+=======
+        FlatLightLaf.install();
+        initComponents();
+        InitStyles();  
+>>>>>>> master
     }
     
     private void InitStyles(){
@@ -54,6 +67,7 @@ public class Inventario extends javax.swing.JPanel {
         lbl6.setForeground(Color.black);
         lbl7.putClientProperty("FlatLaf.styleClass", "large");
         lbl7.setForeground(Color.black);
+<<<<<<< HEAD
         lbl8.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
         lbl8.setForeground(Color.black);
         lbl9.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
@@ -64,16 +78,31 @@ public class Inventario extends javax.swing.JPanel {
         lbl11.setForeground(Color.black);   
         lbl12.putClientProperty("FlatLaf.style", "font: bold $h4.regular.font");
         lbl12.setForeground(Color.black);  
+=======
+        lbl8.putClientProperty("FlatLaf.styleClass", "large");
+        lbl8.setForeground(Color.black);
+        lbl9.putClientProperty("FlatLaf.styleClass", "large");
+        lbl9.setForeground(Color.black);
+        lbl10.putClientProperty("FlatLaf.styleClass", "large");
+        lbl10.setForeground(Color.black);        
+        lbl11.putClientProperty("FlatLaf.styleClass", "large");
+        lbl11.setForeground(Color.black);   
+        lbl12.putClientProperty("FlatLaf.styleClass", "large");
+        lbl12.setForeground(Color.black);   
+>>>>>>> master
         titleLbl.putClientProperty("FlatLaf.style", "font: bold $h3.regular.font");
         titleLbl.setForeground(Color.black);
     }
 
+<<<<<<< HEAD
     private void LoadLibros(){
         DefaultTableModel tabla = (DefaultTableModel) librosTbl.getModel();
         tabla.setRowCount(0);
         libroController.findAll().forEach((u) -> tabla.addRow(new Object[] {u.getId(), u.getCodigo(), u.getNombre(), u.getCantidad(), u.getAutor(), u.getEditorial(), u.getPrecio()}));
     }
     
+=======
+>>>>>>> master
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -87,7 +116,11 @@ public class Inventario extends javax.swing.JPanel {
         bg = new javax.swing.JPanel();
         lbl4 = new javax.swing.JLabel();
         lbl1 = new javax.swing.JLabel();
+<<<<<<< HEAD
         codigoLibroTxt = new javax.swing.JTextField();
+=======
+        codClientVentas = new javax.swing.JTextField();
+>>>>>>> master
         lbl2 = new javax.swing.JLabel();
         lbl5 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -95,15 +128,24 @@ public class Inventario extends javax.swing.JPanel {
         titleLbl = new javax.swing.JLabel();
         lbl7 = new javax.swing.JLabel();
         lbl8 = new javax.swing.JLabel();
+<<<<<<< HEAD
         nombreLbl = new javax.swing.JLabel();
         crearLibroBtn = new javax.swing.JButton();
         consultarLibroBtn = new javax.swing.JButton();
         nombreLibroTxt = new javax.swing.JTextField();
         editorialLibroTxt = new javax.swing.JTextField();
+=======
+        jLabel11 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        codClientVentas1 = new javax.swing.JTextField();
+        codClientVentas2 = new javax.swing.JTextField();
+>>>>>>> master
         lbl3 = new javax.swing.JLabel();
         lbl9 = new javax.swing.JLabel();
         lbl10 = new javax.swing.JLabel();
         lbl11 = new javax.swing.JLabel();
+<<<<<<< HEAD
         autorLbl = new javax.swing.JLabel();
         editorialLbl = new javax.swing.JLabel();
         cantidadLbl = new javax.swing.JLabel();
@@ -116,6 +158,20 @@ public class Inventario extends javax.swing.JPanel {
         lbl12 = new javax.swing.JLabel();
         precioLbl = new javax.swing.JLabel();
         autorLibroTxt = new javax.swing.JTextField();
+=======
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        codClientVentas5 = new javax.swing.JTextField();
+        jButton4 = new javax.swing.JButton();
+        jSpinner1 = new javax.swing.JSpinner();
+        jButton5 = new javax.swing.JButton();
+        lbl6 = new javax.swing.JLabel();
+        codClientVentas3 = new javax.swing.JTextField();
+        lbl12 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        codClientVentas4 = new javax.swing.JTextField();
+>>>>>>> master
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -133,8 +189,14 @@ public class Inventario extends javax.swing.JPanel {
         lbl1.setForeground(new java.awt.Color(0, 0, 0));
         lbl1.setText("Código Libro:");
 
+<<<<<<< HEAD
         codigoLibroTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         codigoLibroTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        codClientVentas.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas.setText("jTextField1");
+>>>>>>> master
 
         lbl2.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl2.setForeground(new java.awt.Color(0, 0, 0));
@@ -147,10 +209,20 @@ public class Inventario extends javax.swing.JPanel {
 
         librosTbl.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+<<<<<<< HEAD
 
             },
             new String [] {
                 "Id", "Codigo", "Nombre", "Cantidad", "Autor", "Editorial", "Precio"
+=======
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+>>>>>>> master
             }
         ));
         jScrollPane1.setViewportView(librosTbl);
@@ -171,6 +243,7 @@ public class Inventario extends javax.swing.JPanel {
         lbl8.setForeground(new java.awt.Color(0, 0, 0));
         lbl8.setText("Nombre:");
 
+<<<<<<< HEAD
         nombreLbl.setBackground(new java.awt.Color(0, 0, 0));
         nombreLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         nombreLbl.setForeground(new java.awt.Color(0, 0, 0));
@@ -204,6 +277,44 @@ public class Inventario extends javax.swing.JPanel {
 
         editorialLibroTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         editorialLibroTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        jLabel11.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("{Nombre}");
+
+        jButton1.setBackground(new java.awt.Color(18, 90, 173));
+        jButton1.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Agregar");
+        jButton1.setBorderPainted(false);
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setBackground(new java.awt.Color(18, 90, 173));
+        jButton3.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setText("Consultar");
+        jButton3.setBorderPainted(false);
+        jButton3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        codClientVentas1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas1.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas1.setText("jTextField1");
+
+        codClientVentas2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas2.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas2.setText("jTextField1");
+>>>>>>> master
 
         lbl3.setBackground(new java.awt.Color(0, 0, 0));
         lbl3.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -225,6 +336,7 @@ public class Inventario extends javax.swing.JPanel {
         lbl11.setForeground(new java.awt.Color(0, 0, 0));
         lbl11.setText("Cantidad:");
 
+<<<<<<< HEAD
         autorLbl.setBackground(new java.awt.Color(0, 0, 0));
         autorLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         autorLbl.setForeground(new java.awt.Color(0, 0, 0));
@@ -261,6 +373,48 @@ public class Inventario extends javax.swing.JPanel {
         eliminarLibroBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eliminarLibroBtnActionPerformed(evt);
+=======
+        jLabel15.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel15.setText("{Membresia}");
+
+        jLabel16.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel16.setText("{Correo}");
+
+        jLabel17.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel17.setText("{celular}");
+
+        codClientVentas5.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas5.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas5.setText("jTextField1");
+
+        jButton4.setBackground(new java.awt.Color(18, 90, 173));
+        jButton4.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setText("Editar");
+        jButton4.setBorderPainted(false);
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        jButton5.setBackground(new java.awt.Color(18, 90, 173));
+        jButton5.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("Eliminar");
+        jButton5.setBorderPainted(false);
+        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+>>>>>>> master
             }
         });
 
@@ -269,20 +423,37 @@ public class Inventario extends javax.swing.JPanel {
         lbl6.setForeground(new java.awt.Color(0, 0, 0));
         lbl6.setText("Precio:");
 
+<<<<<<< HEAD
         precioLibroTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         precioLibroTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        codClientVentas3.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas3.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas3.setText("jTextField1");
+>>>>>>> master
 
         lbl12.setBackground(new java.awt.Color(0, 0, 0));
         lbl12.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         lbl12.setForeground(new java.awt.Color(0, 0, 0));
         lbl12.setText("Precio:");
 
+<<<<<<< HEAD
         precioLbl.setBackground(new java.awt.Color(0, 0, 0));
         precioLbl.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         precioLbl.setForeground(new java.awt.Color(0, 0, 0));
 
         autorLibroTxt.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         autorLibroTxt.setForeground(new java.awt.Color(0, 0, 0));
+=======
+        jLabel19.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel19.setText("{celular}");
+
+        codClientVentas4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        codClientVentas4.setForeground(new java.awt.Color(0, 0, 0));
+        codClientVentas4.setText("jTextField1");
+>>>>>>> master
 
         javax.swing.GroupLayout bgLayout = new javax.swing.GroupLayout(bg);
         bg.setLayout(bgLayout);
@@ -294,6 +465,7 @@ public class Inventario extends javax.swing.JPanel {
                     .addGroup(bgLayout.createSequentialGroup()
                         .addComponent(lbl1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                         .addComponent(codigoLibroTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(lbl2)
@@ -317,6 +489,31 @@ public class Inventario extends javax.swing.JPanel {
                         .addComponent(precioLibroTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(crearLibroBtn))
+=======
+                        .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(lbl2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(bgLayout.createSequentialGroup()
+                        .addComponent(lbl4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas4, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas2, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lbl6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(codClientVentas3, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton1))
+>>>>>>> master
                     .addGroup(bgLayout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 416, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(27, 27, 27)
@@ -324,13 +521,18 @@ public class Inventario extends javax.swing.JPanel {
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl11)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                                 .addComponent(cantidadLbl))
+=======
+                                .addComponent(jLabel17))
+>>>>>>> master
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addGap(26, 26, 26)
                                 .addComponent(titleLbl, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl8)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                                 .addComponent(nombreLbl))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl9)
@@ -345,18 +547,43 @@ public class Inventario extends javax.swing.JPanel {
                                     .addComponent(editarLibroBtn)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(eliminarLibroBtn))
+=======
+                                .addComponent(jLabel11))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(lbl9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel15))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(lbl10)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel16))
+                            .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addGroup(bgLayout.createSequentialGroup()
+                                    .addComponent(jButton4)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(jButton5))
+>>>>>>> master
                                 .addGroup(bgLayout.createSequentialGroup()
                                     .addComponent(lbl7)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(bgLayout.createSequentialGroup()
                                             .addGap(6, 6, 6)
+<<<<<<< HEAD
                                             .addComponent(consultarLibroBtn))
                                         .addComponent(codigoLibroConstultaTxt, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(bgLayout.createSequentialGroup()
                                 .addComponent(lbl12)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(precioLbl)))))
+=======
+                                            .addComponent(jButton3))
+                                        .addComponent(codClientVentas5, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(bgLayout.createSequentialGroup()
+                                .addComponent(lbl12)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel19)))))
+>>>>>>> master
                 .addContainerGap(49, Short.MAX_VALUE))
         );
         bgLayout.setVerticalGroup(
@@ -364,6 +591,7 @@ public class Inventario extends javax.swing.JPanel {
             .addGroup(bgLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                     .addComponent(codigoLibroTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lbl2)
                     .addComponent(lbl1)
@@ -379,6 +607,23 @@ public class Inventario extends javax.swing.JPanel {
                     .addComponent(precioLibroTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(crearLibroBtn)
                     .addComponent(autorLibroTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                    .addComponent(codClientVentas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl2)
+                    .addComponent(lbl1)
+                    .addComponent(codClientVentas1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl3)
+                    .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbl5)
+                    .addComponent(codClientVentas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lbl4)
+                    .addComponent(lbl6)
+                    .addComponent(codClientVentas3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1)
+                    .addComponent(codClientVentas4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> master
                 .addGap(17, 17, 17)
                 .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 378, Short.MAX_VALUE)
@@ -388,6 +633,7 @@ public class Inventario extends javax.swing.JPanel {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lbl7)
+<<<<<<< HEAD
                             .addComponent(codigoLibroConstultaTxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(consultarLibroBtn)
@@ -415,6 +661,35 @@ public class Inventario extends javax.swing.JPanel {
                         .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(editarLibroBtn)
                             .addComponent(eliminarLibroBtn))
+=======
+                            .addComponent(codClientVentas5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jButton3)
+                        .addGap(12, 12, 12)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl8)
+                            .addComponent(jLabel11))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl9)
+                            .addComponent(jLabel15))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl10)
+                            .addComponent(jLabel16))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl11)
+                            .addComponent(jLabel17))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lbl12)
+                            .addComponent(jLabel19))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(bgLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton4)
+                            .addComponent(jButton5))
+>>>>>>> master
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
@@ -431,6 +706,7 @@ public class Inventario extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void crearLibroBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearLibroBtnActionPerformed
         //VALIDACION DE NULOS
         if(codigoLibroTxt.getText().equals("") || nombreLibroTxt.getText().equals("") || cantidadSpn.getValue().equals(0) || autorLibroTxt.getText().equals("") || editorialLibroTxt.getText().equals("") || precioLibroTxt.getText().equals("")){
@@ -584,6 +860,46 @@ public class Inventario extends javax.swing.JPanel {
     private javax.swing.JButton eliminarLibroBtn;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JScrollPane jScrollPane1;
+=======
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        EditarInventario c = new EditarInventario();
+        c.setVisible(true);
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel bg;
+    private javax.swing.JTextField codClientVentas;
+    private javax.swing.JTextField codClientVentas1;
+    private javax.swing.JTextField codClientVentas2;
+    private javax.swing.JTextField codClientVentas3;
+    private javax.swing.JTextField codClientVentas4;
+    private javax.swing.JTextField codClientVentas5;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSpinner jSpinner1;
+>>>>>>> master
     private javax.swing.JLabel lbl1;
     private javax.swing.JLabel lbl10;
     private javax.swing.JLabel lbl11;
@@ -597,10 +913,13 @@ public class Inventario extends javax.swing.JPanel {
     private javax.swing.JLabel lbl8;
     private javax.swing.JLabel lbl9;
     private javax.swing.JTable librosTbl;
+<<<<<<< HEAD
     private javax.swing.JLabel nombreLbl;
     private javax.swing.JTextField nombreLibroTxt;
     private javax.swing.JLabel precioLbl;
     private javax.swing.JTextField precioLibroTxt;
+=======
+>>>>>>> master
     private javax.swing.JLabel titleLbl;
     // End of variables declaration//GEN-END:variables
 }
