@@ -1,0 +1,12 @@
+Cedula;Nombre Cliente;Membresia;Nombre Libro;Cantidad;Descuento;Total
+1000973532;Cristian Triana;VIP;Wava tonto;4;3000.0;7000.0
+1000973532;Cristian Triana;VIP;Ecuaciones Diferenciales;1;21000.0;49000.0
+1000973532;Cristian Triana;VIP;Wava tonto;6;3000.0;11250.0
+1000973532;Cristian Triana;VIP;Ecuaciones Diferenciales;1;21000.0;49000.0
+12345;Cliente Editado;Frecuente;Ecuaciones Diferenciales;1;10500.0;59500.0
+12345;Cliente Editado;Frecuente;Ecuaciones Diferenciales;1;10500.0;59500.0
+null;Default;Default;Wava tonto;1;0.0;2500.0
+1000973532;Cristian Triana;VIP;Wava tonto;2;1500.0;3500.0
+1000973532;Cristian Triana;VIP;Ecuaciones Diferenciales;1;21000.0;49000.0
+null;Default;Default;Wava tonto;1;0.0;2500.0
+null;Default;Default;Ecuaciones Diferenciales;5;0.0;350000.0
